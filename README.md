@@ -1,1 +1,1 @@
-# eventify-client
+# Xtreme workers
