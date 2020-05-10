@@ -329,10 +329,431 @@ const Index = () => {
 
     </div>
 </section>
+
+<section>
+    <div class="tabs tabs--with-icon">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                        <li role="presentation" class="nav-item active">
+                            <a class="nav-link active h4" id="home-tab" data-toggle="tab" href="index.html#home" role="tab" aria-controls="home" aria-selected="true">Looking for a Job
+                                <span class="position-count">69.368 Open Positions</span>
+                                <span class="icons">
+                                    <img class="puzzle-icon" src="assets/img/svg/11_employer_dark_tab.svg" alt="man" width="140" />
+                                    <img class="puzzle-icon active" src="assets/img/svg/12_employer_white_tab.svg" alt="man" width="140" />
+                                </span>
+                            </a>
+                        </li>
+
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link h4" id="profile-tab" data-toggle="tab" href="index.html#profile" role="tab" aria-controls="profile" aria-selected="false">Hire an Employee
+                                <span class="position-count">238.900 Candidates</span>
+                                <span class="icons">
+                                    <img class="puzzle-icon" src="assets/img/svg/09_freelancer_dark_tab.svg" alt="man" width="140" />
+                                    <img class="puzzle-icon active" src="assets/img/svg/10_freelancer_white_tab.svg" alt="man" width="140" />
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content">
+
+            <div class="container">
+                <div class="row pb80">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                            <div class="d-flex justify-content-between align-items-center flex-wrap mb60">
+                                <button type="button" class="crumina-button button--dark button--m button--with-icon button--icon-left my-2">
+                                    <i class="puzzle-icon far fa-pencil"></i>Sign Up as Employee
+                                </button>
+                                <button type="button" class="crumina-button button--dark button--m button--bordered button--with-icon button--icon-left my-2">
+                                    <i class="puzzle-icon far fa-at"></i>Email Me Jobs Like These
+                                </button>
+                            </div>
+
+                            <div class="row sorting-container mb40" id="vacancies-grid" data-layout="fitRows">
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card featured-vacancies">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Data Center Support Specialist Engineer</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">6 hours ago</time>
+                                                    London, United Kingdom
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company">
+                                                <img class="logo" src="assets/img/client2.png" title="company" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">IT Contractor</a>
+                                            <button type="button" class="crumina-button button--blue-dark button--xxs button--uppercase-wide">Part Time</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card featured-vacancies">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Visualizer, web designer Max 3Ds, Cinema 4D</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">24 hours ago</time>
+                                                    New York, USA
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company">
+                                                <img class="logo" src="assets/img/client3.png" title="company" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Digital & Creative</a>
+                                            <button type="button" class="crumina-button button--green button--xxs button--uppercase-wide">Full Time</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Regional Sales Manager</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">6 days ago</time>
+                                                    Melbourne, Australia
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company"><img class="logo" src="assets/img/client4.png" title="company" /></a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Sales & Marketing</a>
+                                            <button type="button" class="crumina-button button--red button--xxs button--uppercase-wide">Temporary</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card featured-vacancies">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Front End and Back End Developer</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">1 week ago</time>
+                                                    California, USA
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company">
+                                                <img class="logo" src="assets/img/client5.png" title="company" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Web Development</a>
+                                            <button type="button" class="crumina-button button--yellow button--xxs button--uppercase-wide">Internship</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Professional Copywriter for Commercial Advertising</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">3 months ago</time>
+                                                    Cologne, Germany
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company">
+                                                <img class="logo" src="assets/img/client6.png" title="company" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Writing</a>
+                                            <button type="button" class="crumina-button button--blue button--xxs button--uppercase-wide">Freelance</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 sorting-item">
+                                    <div class="ui-card">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="05_job_details.html" class="vacancies-title h6">Front End and Back End Developer</a>
+                                                <div class="vacancies-location">
+                                                    <time class="published" datetime="2018-10-14 12:00:00">6 months ago</time>
+                                                    London, United Kingdom
+                                                </div>
+                                            </div>
+                                            <a href="05_job_details.html" class="logo-company">
+                                                <img class="logo" src="assets/img/client7.png" title="company" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Web Development</a>
+                                            <button type="button" class="crumina-button button--blue-dark button--xxs button--uppercase-wide">Part Time</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="index.html#" class="crumina-button button--grey button--xl load-more-button" data-load-link="vacancies-to-load.html" data-container="vacancies-grid">Load More Listings</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="ui-card featured-vacancies">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="10_candidate_details.html" class="vacancies-title h6">Jerry Thomas</a>
+                                                <div class="vacancies-location">London, United Kingdom</div>
+                                            </div>
+                                            <a href="10_candidate_details.html" class="avatar avatar--80">
+                                                <img src="assets/img/author2.jpg" title="user" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">Web Developer</a>
+                                            <a href="index.html#" class="link--uppercase-wide link--uppercase-wide link--bold fs-12">$45 / hour</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="ui-card">
+                                        <div class="ui-card-content">
+                                            <div class="vacancies-title-location">
+                                                <a href="10_candidate_details.html" class="vacancies-title h6">Catherine White</a>
+                                                <div class="vacancies-location">New York, USA</div>
+                                            </div>
+                                            <a href="10_candidate_details.html" class="avatar avatar--80">
+                                                <img src="assets/img/author3.jpg" title="user" />
+                                            </a>
+                                        </div>
+                                        <div class="ui-card-footer">
+                                            <a href="index.html#" class="link--uppercase-wide fs-12">UX/UI Designer</a>
+                                            <a href="index.html#" class="link--uppercase-wide link--uppercase-wide link--bold fs-12">$60 / Hour</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark-themes">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt120 pb120">
+                <header class="crumina-module crumina-heading heading--h2 heading--with-decoration text-white">
+                    <h2 class="heading-title">Get Puzzler App for your mobile</h2>
+                    <div class="heading-text">Download free Puzzler application now!</div>
+                </header>
+                <div className="universal-btn-wrapper">
+                    <a href="index.html#" class="crumina-button button--market"><i class="puzzle-icon fab fa-apple"></i>Apple<br />Store</a>
+                    <a href="index.html#" class="crumina-button button--market"><i class="puzzle-icon fab fa-google-play"></i>Google<br />Play</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-auto ml-auto mr-auto">
+                <img src="assets/img/iphone.png" alt="iphone" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="medium-padding120">
+    <div class="container">
+        <div class="row mb60">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <header class="crumina-module crumina-heading heading--h2 heading--with-decoration heading--inline mb-0">
+                    <h2 class="heading-title">A Few Words from Happy Candidates</h2>
+                    <div class="heading-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="crumina-module crumina-module-slider pagination-bottom-center slider--item-with-shadow">
+
+                    <div class="swiper-container" data-show-items="3" data-prev-next="1" data-space-between="40">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="assets/img/author6.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Philip Demarco</h6>
+                                                <div class="author-prof">Copywriter</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="img/author1.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Angelina Johnson</h6>
+                                                <div class="author-prof">Graphic Designer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="img/author7.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Peter Spenser</h6>
+                                                <div class="author-prof">Marketing Director</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="assets/img/author6.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Philip Demarco</h6>
+                                                <div class="author-prof">Copywriter</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="assets/img/author1.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Angelina Johnson</h6>
+                                                <div class="author-prof">Graphic Designer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="assets/img/author7.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Peter Spenser</h6>
+                                                <div class="author-prof">Marketing Director</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="quote--squared">
+                                    <p>
+                                        <i class="puzzle-icon quote fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
+                                    </p>
+
+                                    <div class="quote-footer">
+                                        <div class="author-block">
+                                            <div class="avatar avatar--70">
+                                                <img src="assets/img/author6.jpg" alt="avatar" />
+                                            </div>
+                                            <div class="author-content">
+                                                <h6 class="author-name">Philip Demarco</h6>
+                                                <div class="author-prof">Copywriter</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
        </div>
   );
 };
 
 export default Index;
-
- 
