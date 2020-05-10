@@ -195,35 +195,13 @@ const Footer1 = () => {
             </div>
 
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center text-lg-right">
-<<<<<<< HEAD
                 <div className="copyright">
                     <span>© 2019 </span>
                     <span><a href="index.html">Puzzler.</a></span>
                     <span>designed by <a href="" className="logo-title">themefire.</a></span>
                     <span>Developed by <a href="" className="logo-title">Crumina</a></span>
                 </div>
-=======
-              <div className="copyright">
-                <span>© 2019 </span>
-                <span>
-                  <Link href="index.html">
-                    <a>Puzzler.</a>
-                  </Link>
-                </span>
-                <span>
-                  designed by
-                  <Link href=" ><ahttps://themeforest.net/user/themefire/portfolio">
-                    <a className="logo-title"> themefire.</a>
-                  </Link>
-                </span>
-                <span>
-                  Developed by
-                  <Link href=" ><ahttps://crumina.net/">
-                    <a className="logo-title"> Crumina</a>
-                  </Link>
-                </span>
-              </div>
->>>>>>> 3949dc191e246c14b667e6dcc69ecf01cf0b3456
+
             </div>
           </div>
         </div>
