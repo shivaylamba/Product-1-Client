@@ -130,7 +130,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Data Center Support Specialist Engineer</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">6 hours ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">6 hours ago</time>
 									London, United Kingdom
 								</div>
 							</div>
@@ -149,7 +149,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Visualizer, web designer Max 3Ds, Cinema 4D</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">24 hours ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">24 hours ago</time>
 									New York, USA
 								</div>
 							</div>
@@ -168,7 +168,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Regional Sales Manager</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">6 days ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">6 days ago</time>
 									Melbourne, Australia
 								</div>
 							</div>
@@ -187,7 +187,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Front End and Back End Developer</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">1 week ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">1 week ago</time>
 									California, USA
 								</div>
 							</div>
@@ -206,7 +206,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Professional Copywriter for Commercial Advertising</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">3 months ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">3 months ago</time>
 									Cologne, Germany
 								</div>
 							</div>
@@ -225,7 +225,7 @@ const Explore = () => {
 							<div className="vacancies-title-location">
 								<a href="05_job_details.html" className="vacancies-title h6">Front End and Back End Developer</a>
 								<div className="vacancies-location">
-									<time className="published" datetime="2018-03-14 12:00:00">6 months ago</time>
+									<time className="published" dateTime="2018-03-14 12:00:00">6 months ago</time>
 									London, United Kingdom
 								</div>
 							</div>
@@ -264,7 +264,7 @@ const Explore = () => {
 													<div className="vacancies-title-location">
 														<a href="05_job_details.html" className="vacancies-title h6">Data Center Support Specialist Engineer</a>
 														<div className="vacancies-location">
-															<time className="published" datetime="2018-03-14 12:00:00">6 days ago</time>
+															<time className="published" dateTime="2018-03-14 12:00:00">6 days ago</time>
 															Melbourne, Australia
 														</div>
 													</div>
@@ -286,7 +286,7 @@ const Explore = () => {
 													<div className="vacancies-title-location">
 														<a href="05_job_details.html" className="vacancies-title h6">Data Center Support Specialist Engineer</a>
 														<div className="vacancies-location">
-															<time className="published" datetime="2018-03-14 12:00:00">6 days ago</time>
+															<time className="published" dateTime="2018-03-14 12:00:00">6 days ago</time>
 															Melbourne, Australia
 														</div>
 													</div>
@@ -308,7 +308,7 @@ const Explore = () => {
 													<div className="vacancies-title-location">
 														<a href="05_job_details.html" className="vacancies-title h6">Data Center Support Specialist Engineer</a>
 														<div className="vacancies-location">
-															<time className="published" datetime="2018-03-14 12:00:00">6 days ago</time>
+															<time className="published" dateTime="2018-03-14 12:00:00">6 days ago</time>
 															Melbourne, Australia
 														</div>
 													</div>
