@@ -31,7 +31,12 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* import your css and js files from cdn by adding link or style src tags respectively */}
+          {/* import your css and js files from cdn by adding link or style src tags respectively */
+          <link
+          href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700"
+          rel="stylesheet"
+          />
+        }
           <link
             href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
             rel="stylesheet"
