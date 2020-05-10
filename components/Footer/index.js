@@ -35,10 +35,10 @@ const Footer1 = () => {
 
                 <div className="contact-item">
                   <i className="puzzle-icon far fa-at"></i>
-                  <Link href="mailto:info@sample.com">
+                 
                     
-                    <a>support@jobook.com</a>
-                  </Link>
+                    <a href="mailto:info@sample.com">support@jobook.com</a>
+                
                 </div>
               </div>
             </div>

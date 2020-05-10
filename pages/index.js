@@ -386,7 +386,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Data Center Support Specialist Engineer</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">6 hours ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">6 hours ago</time>
                                                     London, United Kingdom
                                                 </div>
                                             </div>
@@ -407,7 +407,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Visualizer, web designer Max 3Ds, Cinema 4D</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">24 hours ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">24 hours ago</time>
                                                     New York, USA
                                                 </div>
                                             </div>
@@ -428,7 +428,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Regional Sales Manager</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">6 days ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">6 days ago</time>
                                                     Melbourne, Australia
                                                 </div>
                                             </div>
@@ -447,7 +447,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Front End and Back End Developer</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">1 week ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">1 week ago</time>
                                                     California, USA
                                                 </div>
                                             </div>
@@ -468,7 +468,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Professional Copywriter for Commercial Advertising</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">3 months ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">3 months ago</time>
                                                     Cologne, Germany
                                                 </div>
                                             </div>
@@ -489,7 +489,7 @@ const Index = () => {
                                             <div className="vacancies-title-location">
                                                 <a href="05_job_details.html" className="vacancies-title h6">Front End and Back End Developer</a>
                                                 <div className="vacancies-location">
-                                                    <time className="published" datetime="2018-10-14 12:00:00">6 months ago</time>
+                                                    <time className="published" dateTime="2018-10-14 12:00:00">6 months ago</time>
                                                     London, United Kingdom
                                                 </div>
                                             </div>
@@ -564,10 +564,10 @@ const Index = () => {
 <section className="bg-dark-themes">
     <div className="container">
         <div className="row align-items-center">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt120 pb120">
-                <header class="crumina-module crumina-heading heading--h2 heading--with-decoration text-white">
-                    <h2 class="heading-title">Get XtremeWorkers App for your mobile</h2>
-                    <div class="heading-text">Download free XtremeWorkers application now!</div>
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt120 pb120">
+                <header className="crumina-module crumina-heading heading--h2 heading--with-decoration text-white">
+                    <h2 className="heading-title">Get XtremeWorkers App for your mobile</h2>
+                    <div className="heading-text">Download free XtremeWorkers application now!</div>
                 </header>
                 <div className="universal-btn-wrapper">
                     <a href="index.html#" className="crumina-button button--market"><i className="puzzle-icon fab fa-apple"></i>Apple<br />Store</a>
