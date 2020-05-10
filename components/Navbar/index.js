@@ -56,119 +56,146 @@ const Navbar = () => {
               </li>
 
               <li className="menu-item-has-children">
-                <a href="index.html#">
-                  Employers
-                  <span className="show indicator">
-                    <i className="puzzle-icon far fa-angle-down"></i>
-                  </span>
-                </a>
-
+                <Link href="index.html#">
+                  <a>
+                    Employers
+                    <span className="show indicator">
+                      <i className="puzzle-icon far fa-angle-down"></i>
+                    </span>
+                  </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="03_job_lists_row_map.html">Job lists</a>
+                    <Link href="03_job_lists_row_map.html">
+                      <a>Job lists</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="04_job_lists_grid.html">Job lists grid</a>
+                    <Link href="04_job_lists_grid.html">
+                      <a>Job lists grid</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="05_job_details.html">Job details</a>
+                    <Link href="05_job_details.html ">
+                      <a>Job details</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="06_company_profile.html">Company profile</a>
+                    <Link href="06_company_profile.html">
+                      <a>Company profile</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="07_company_lists_alphabet.html">Company lists</a>
+                    <Link href=" ">
+                      <a>Company lists</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li className="menu-item-has-children">
-                <a href="index.html#">
-                  Candidates
-                  <span className="show indicator">
-                    <i className="puzzle-icon far fa-angle-down"></i>
-                  </span>
-                </a>
+                <Link href="index.html#">
+                  <a>
+                    Candidates
+                    <span className="show indicator">
+                      <i className="puzzle-icon far fa-angle-down"></i>
+                    </span>
+                  </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="08_candidate_lists_row_map.html">
-                      Candidate lists
-                    </a>
+                    <Link href="08_candidate_lists_row_map.html">
+                      <a>Candidate lists</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="09_candidate_lists_grid.html">
-                      Candidate lists grid
-                    </a>
+                    <Link href="09_candidate_lists_grid.html">
+                      <a>Candidate lists grid</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="10_candidate_details.html">Candidate details</a>
+                    <Link href=" 10_candidate_details.html">
+                      <a>Candidate details</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="11_submit_resume.html">Submit resume</a>
+                    <Link href=" 11_submit_resume.html">
+                      <a>Submit resume</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="12_resume_preview.html">Resume preview</a>
+                    <Link href=" 12_resume_preview.html">
+                      <a>Resume preview</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="13_resume_added.html">Resume added</a>
+                    <Link href=" 13_resume_added.html">
+                      <a>Resume added</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li className="menu-item-has-children">
-                <a href="index.html#">
-                  News
-                  <span className="show indicator">
-                    <i className="puzzle-icon far fa-angle-down"></i>
-                  </span>
-                </a>
+                <Link href=" index.html#">
+                  <a>
+                    News
+                    <span className="show indicator">
+                      <i className="puzzle-icon far fa-angle-down"></i>
+                    </span>
+                  </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="15_news_grid.html">News page</a>
+                    <Link href=" 15_news_grid.html">
+                      <a>News page </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="16_standard_news_with_sidebar.html">
-                      Standard news with sidebar
-                    </a>
+                    <Link href="16_standard_news_with_sidebar.html">
+                      <a>Standard news with sidebar</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="17_news_details_standard.html">
-                      News details standard
-                    </a>
+                    <Link href="17_news_details_standard.html">
+                      <a>News details standard</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="18_news_details_gallery.html">
-                      News details gallery
-                    </a>
+                    <Link href=" 18_news_details_gallery.html">
+                      <a>News details gallery</a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="19_news_details_with_video.html">
-                      News details with video
-                    </a>
+                    <Link href="19_news_details_with_video.html">
+                      <a>News details with video</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li className="menu-item-has-mega-menu menu-item-has-children">
-                <a href="index.html#">
-                  Pages
-                  <span className="show indicator">
-                    <i className="puzzle-icon far fa-angle-down"></i>
-                  </span>
-                </a>
+                <Link href=" index.html#">
+                  <a>
+                    Pages
+                    <span className="show indicator">
+                      <i className="puzzle-icon far fa-angle-down"></i>
+                    </span>
+                  </a>
+                </Link>
                 <div className="megamenu">
                   <div className="megamenu-row">
                     <div className="col3">
@@ -177,46 +204,60 @@ const Navbar = () => {
                           <h6 className="megamenu-item-info-title">Pages</h6>
                         </li>
                         <li>
-                          <a href="14_pricing_plan.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Pricing plans
-                          </a>
+                          <Link href=" 14_pricing_plan.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Pricing plans
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="20_contacts.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Contacts
-                          </a>
+                          <Link href="20_contacts.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Contacts
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a target="_blank" href="21_send_message.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Send message
-                          </a>
+                          <Link href="21_send_message.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Send message
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="23_coming_soon.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Coming Soon Page
-                          </a>
+                          <Link href=" 23_coming_soon.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Coming Soon Page
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="22_404.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Error 404
-                          </a>
+                          <Link href=" 22_404.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Error 404
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a target="_blank" href="41_sign_up.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Sign Up
-                          </a>
+                          <Link href="41_sign_up.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Sign Up
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a target="_blank" href="40_login.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Login
-                          </a>
+                          <Link href="40_login.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Login
+                            </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -229,40 +270,52 @@ const Navbar = () => {
                           </h6>
                         </li>
                         <li>
-                          <a href="33_classic_accordions.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Accordions
-                          </a>
+                          <Link href=" 33_classic_accordions.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Accordions
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="34_classic_button_styles.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Button Styles
-                          </a>
+                          <Link href=" 34_classic_button_styles.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Button Styles
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="35_classic_forms.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Forms
-                          </a>
+                          <Link href=" 35_classic_forms.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Forms
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="36_classic_icon_with_text.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Icon with Text
-                          </a>
+                          <Link href=" 36_classic_icon_with_text.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Icon with Text
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="38_classic_link_styles.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Link Styles
-                          </a>
+                          <Link href=" 38_classic_link_styles.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Link Styles
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="37_classic_tab_styles.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Tab Styles
-                          </a>
+                          <Link href=" 37_classic_tab_styles.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Tab Styles
+                            </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -275,40 +328,52 @@ const Navbar = () => {
                           </h6>
                         </li>
                         <li>
-                          <a href="29_typography_heading_styles.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Heading Styles
-                          </a>
+                          <Link href=" 29_typography_heading_styles.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Heading Styles
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="30_typography_highlights.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Highlights
-                          </a>
+                          <Link href=" 30_typography_highlights.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Highlights
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="32_typography_blockquotes.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Blockquotes
-                          </a>
+                          <Link href=" 32_typography_blockquotes.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Blockquotes
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="28_typography_columns.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Columns
-                          </a>
+                          <Link href=" 28_typography_columns.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Columns
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="31_typography_lists.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Lists
-                          </a>
+                          <Link href=" 31_typography_lists.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Lists
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="43_typography-icons.html">
-                            <i className="puzzle-icon fas fa-caret-right"></i>
-                            Icons
-                          </a>
+                          <Link href="43_typography-icons.html">
+                            <a>
+                              <i className="puzzle-icon fas fa-caret-right"></i>
+                              Icons
+                            </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -321,13 +386,11 @@ const Navbar = () => {
           <nav className="login-menu">
             <ul>
               <li>
-                <a
-                  href="index.html#"
-                  data-toggle="modal"
-                  data-target="#signupModal"
-                >
-                  Sign Up
-                </a>
+                <Link href="index.html#">
+                  <a data-toggle="modal" data-target="#signupModal">
+                    Sign Up
+                  </a>
+                </Link>
               </li>
               <li>
                 <button
