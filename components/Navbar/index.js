@@ -50,7 +50,9 @@ const Navbar = () => {
               </li>
 
               <li className="">
-                <a href="02_how_it_works.html">How it Works</a>
+                <Link href="02_how_it_works.html">
+                  <a>How it Works</a>
+                </Link>
               </li>
 
               <li className="menu-item-has-children">
