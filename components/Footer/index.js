@@ -153,8 +153,8 @@ const Footer1 = () => {
                 <div className="copyright">
                     <span>© 2019 </span>
                     <span><a href="index.html">Puzzler.</a></span>
-                    <span>designed by <a href="https://themeforest.net/user/themefire/portfolio" className="logo-title">themefire.</a></span>
-                    <span>Developed by <a href="https://crumina.net/" className="logo-title">Crumina</a></span>
+                    <span>designed by <a href="" className="logo-title">themefire.</a></span>
+                    <span>Developed by <a href="" className="logo-title">Crumina</a></span>
                 </div>
             </div>
 
