@@ -56,9 +56,9 @@ const Navbar = () => {
               </li>
 
               <li className="menu-item-has-children">
-                <Link href="index.html#">
+                <Link href="/Explore">
                   <a>
-                    Employers
+                    Explore
                     <span className="show indicator">
                       <i className="puzzle-icon far fa-angle-down"></i>
                     </span>
@@ -66,20 +66,20 @@ const Navbar = () => {
                 </Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="03_job_lists_row_map.html">
-                      <a>Job lists</a>
+                    <Link href="/Explore">
+                      <a>Micro Job lists</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="04_job_lists_grid.html">
-                      <a>Job lists grid</a>
+                    <Link href="/Explore">
+                      <a>Full Time Job lists</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="05_job_details.html ">
-                      <a>Job details</a>
+                    <Link href="/Explore">
+                      <a>Freelancer Job details</a>
                     </Link>
                   </li>
 
