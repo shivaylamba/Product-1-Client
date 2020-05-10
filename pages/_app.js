@@ -12,10 +12,10 @@ import createStore from "../store";
 
 //Global Css Imports
 
-import "../public/assets/css/vendors/Bootstrap/bootstrap.css";
+import "public/assets/css/vendors/Bootstrap/bootstrap.css";
 //import "../public/assets/css/font-awesome.css";
-import "../public/assets/css/main.css";
-//import 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700';
+import "public/assets/css/main.css";
+// import 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700';
 
 
 
