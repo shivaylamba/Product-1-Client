@@ -564,11 +564,10 @@ const Index = () => {
 <section className="bg-dark-themes">
     <div className="container">
         <div className="row align-items-center">
-
-            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt120 pb120">
-                <header className="crumina-module crumina-heading heading--h2 heading--with-decoration text-white">
-                    <h2 className="heading-title">Get Puzzler App for your mobile</h2>
-                    <div className="heading-text">Download free Puzzler application now!</div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt120 pb120">
+                <header class="crumina-module crumina-heading heading--h2 heading--with-decoration text-white">
+                    <h2 class="heading-title">Get XtremeWorkers App for your mobile</h2>
+                    <div class="heading-text">Download free XtremeWorkers application now!</div>
                 </header>
                 <div className="universal-btn-wrapper">
                     <a href="index.html#" className="crumina-button button--market"><i className="puzzle-icon fab fa-apple"></i>Apple<br />Store</a>
