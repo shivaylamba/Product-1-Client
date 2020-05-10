@@ -10,6 +10,15 @@ import "../styles.css";
 import "react-tagsinput/react-tagsinput.css";
 import createStore from "../store";
 
+//Global Css Imports
+
+import "public/assets/css/vendors/Bootstrap/bootstrap.css";
+//import "../public/assets/css/font-awesome.css";
+import "public/assets/css/main.css";
+// import 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700';
+
+
+
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
