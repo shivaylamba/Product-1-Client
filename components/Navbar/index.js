@@ -387,7 +387,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <Link href="index.html#">
-                  <a data-toggle="modal" data-target="#signupModal">
+                  <a data-toggle="modal" href="#signupModal" data-target="#signupModal">
                     Sign Up
                   </a>
                 </Link>
