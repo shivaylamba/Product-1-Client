@@ -1,4 +1,4 @@
-const Explore = () => {
+const MicroJobs = () => {
     return (
         <div className="main-content-wrapper">
 
@@ -135,7 +135,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client2.png" title="company"/>
+								<img className="logo" src="assets/img/client2.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -154,7 +154,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client3.png" title="company"/>
+								<img className="logo" src="assets/img/client3.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -173,7 +173,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client4.png" title="company"/>
+								<img className="logo" src="assets/img/client4.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -192,7 +192,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client5.png" title="company"/>
+								<img className="logo" src="assets/img/client5.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -211,7 +211,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client6.png" title="company"/>
+								<img className="logo" src="assets/img/client6.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -230,7 +230,7 @@ const Explore = () => {
 								</div>
 							</div>
 							<a href="05_job_details.html" className="logo-company">
-								<img className="logo" src="./img/client7.png" title="company"/>
+								<img className="logo" src="assets/img/client7.png" title="company"/>
 							</a>
 						</div>
 						<div className="ui-card-footer">
@@ -269,8 +269,8 @@ const Explore = () => {
 														</div>
 													</div>
 													<a href="05_job_details.html" className="logo-company logo-company--thumb">
-														<img className="logo" src="./img/client8.png" title="company"/>
-														<img src="./img/company1.jpg" title="company"/>
+														<img className="logo" src="assets/img/client8.png" title="company"/>
+														<img src="assets/img/company1.jpg" title="company"/>
 														<div className="overlay"></div>
 													</a>
 												</div>
@@ -291,8 +291,8 @@ const Explore = () => {
 														</div>
 													</div>
 													<a href="05_job_details.html" className="logo-company logo-company--thumb">
-														<img className="logo" src="./img/client8.png" title="company"/>
-														<img src="./img/company1.jpg" title="company"/>
+														<img className="logo" src="assets/img/client8.png" title="company"/>
+														<img src="assets/img/company1.jpg" title="company"/>
 														<div className="overlay"></div>
 													</a>
 												</div>
@@ -313,8 +313,8 @@ const Explore = () => {
 														</div>
 													</div>
 													<a href="05_job_details.html" className="logo-company logo-company--thumb">
-														<img className="logo" src="./img/client8.png" title="company"/>
-														<img src="./img/company1.jpg" title="company"/>
+														<img className="logo" src="assets/img/client8.png" title="company"/>
+														<img src="assets/img/company1.jpg" title="company"/>
 														<div className="overlay"></div>
 													</a>
 												</div>
@@ -343,7 +343,7 @@ const Explore = () => {
 									<a href="#"><i className="puzzle-icon fab fa-google-play"></i></a>
 								</div>
 
-								<img src="./img/iphone1.png" title="phone"/>
+								<img src="assets/img/iphone1.png" title="phone"/>
 
 							</div>
 						</div>
@@ -388,177 +388,6 @@ const Explore = () => {
 		</div>
 	</section>
 
-	<section className="medium-padding120">
-		<div className="container">
-			<div className="row mb60">
-				<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<header className="crumina-module crumina-heading heading--h2 heading--with-decoration heading--inline mb-0">
-
-						<h2 className="heading-title">A Few Words from Happy Candidates</h2>
-						<div className="heading-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-					</header>
-				</div>
-			</div>
-
-			<div className="row">
-				<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div className="crumina-module crumina-module-slider pagination-bottom-center slider--item-with-shadow">
-
-						<div className="swiper-container" data-show-items="3" data-prev-next="1" data-space-between="40">
-							<div className="swiper-wrapper">
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author6.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Philip Demarco</h6>
-													<div className="author-prof">Copywriter</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author1.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Angelina Johnson</h6>
-													<div className="author-prof">Graphic Designer</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author7.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Peter Spenser</h6>
-													<div className="author-prof">Marketing Director</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author6.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Philip Demarco</h6>
-													<div className="author-prof">Copywriter</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author1.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Angelina Johnson</h6>
-													<div className="author-prof">Graphic Designer</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author7.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Peter Spenser</h6>
-													<div className="author-prof">Marketing Director</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<div className="swiper-slide">
-									<blockquote className="quote--squared">
-										<p>
-											<i className="puzzle-icon quote fas fa-quote-left"></i>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua in voluptate velit esse cillum.
-										</p>
-
-										<div className="quote-footer">
-											<div className="author-block">
-												<div className="avatar avatar--70">
-													<img src="img/author6.jpg" alt="avatar"/>
-												</div>
-												<div className="author-content">
-													<h6 className="author-name">Philip Demarco</h6>
-													<div className="author-prof">Copywriter</div>
-												</div>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-
-					
-						<div className="swiper-pagination"></div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-
 	<section className="medium-padding120 bg-accent-primary">
 		<div className="container">
 			<div className="row align-items-center">
@@ -582,4 +411,4 @@ const Explore = () => {
     );
 };
 
-export default Explore;
+export default MicroJobs;
