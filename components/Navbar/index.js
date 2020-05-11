@@ -4,7 +4,7 @@ import Link from "components/Link";
 const Navbar = () => {
   return (
     <header
-      className="header header--absolute header--transparent"
+      className="header header--absolute header--dark"
       id="site-header"
     >
       <div className="container">
@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
 
               <li className="menu-item-has-children">
-                <Link href="/Explore">
+                <Link href="/MicroJobs">
                   <a>
                     Explore
                     <span className="show indicator">
@@ -66,8 +66,8 @@ const Navbar = () => {
                 </Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/Explore">
-                      <a>Micro Job lists</a>
+                    <Link href="/MicroJobs">
+                      <a>Micro Jobs/Xtreme Jobs</a>
                     </Link>
                   </li>
 
