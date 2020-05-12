@@ -3,6 +3,8 @@ import { ThemeProvider } from "styled-components";
 import theme from "theme/index";
 import Navbar from "components/Navbar";
 import Footer1 from "components/Footer";
+import JsFiles from "components/js/JsFiles";
+
 
 function Page({ children }) {
   return (
@@ -10,6 +12,7 @@ function Page({ children }) {
       <Navbar />
       {children}
       <Footer1 />
+      <JsFiles />
     </ThemeProvider>
   );
 }
